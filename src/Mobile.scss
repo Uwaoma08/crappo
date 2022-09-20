@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  //VARIABLES
+$darkPurple: #0d0d2b;
+$lightPurple: #2b076e;
+$pureWhite: #fff;
+$offWhite: #e0e0e0;
+$blueColor: #3671e9;
+$lightWhite: #f9f6fc;
+$rubik-font: "Rubik", sans-serif;
+$normalFont: 16px;
+
+//MEDIA QUERRY for MOBILE
+@media screen and (max-width: 500px) {
+    .o-shape,
+    .u-shape,
+    .d-shape,
+    .rectangle1,
+    .rectangle2,
+    .ether,
+    .vector,
+    .rec3,
+    .rec4 {
+      display: none;
+    }
+    .float-mobile {
+      
+      background-color: #fff;
+      max-width: 942px;
+      border-radius: 25px;
+      position: absolute;
+      top: 2356px;
+      left: 40px;
+      width: 80%;
+      margin: 0 auto;
+      .grid {
+        input, select{
+          text-align: center;
+          margin-left: 40px;
+        }
+        select{
+          margin-bottom: 20px;
+        }
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+      }
+      .float-text {
+        box-shadow: none;
+        padding: 20px;
+      }
+     }
+  
+    .header {
+      padding: 40px;
+    }
+  
+    .main-nav {
+      display: block;
+    }
+    .logo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      height: 70px;
+    }
+  
+    .menu-items {
+      border: none;
+      margin-bottom: 10px;
+      li {
+        padding: 10px 10px 10px 10px;
+        font-size: 16px;
+      }
+    }
+  
+    .right-nav {
+      display: flex;
+      flex-direction: column;
+    }
+    .reg-btn {
+      margin: 0 auto;
+    }
+    .banner {
+      display: block;
+      h3 {
+        font-size: 35px;
+        text-align: center;
+      }
+    }
+    .info {
+      display: flex;
+      margin: 0 auto;
+    }
+    .buy-sell {
+      margin: 0 auto;
+    }
+    .right-banner {
+      img {
+        width: 100%;
+      }
+    }
+  
+    //WHY CRYPTO
+    .why-crypto {
+      padding: 40px;
+      padding-bottom: 200px;
+    }
+    .numbers {
+      margin: 0 auto;
+      .stat {
+        padding-bottom: 40px;
+      }
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .crappo-banner {
+      display: block;
+      padding-bottom: 0;
+      margin-bottom: 40px;
+    }
+    .crappo-left-banner {
+      img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+      }
+    }
+    .crappo-text {
+      font-size: 32px;
+    }
+    .crappo-right-banner {
+      text-align: center;
+      p {
+        margin-bottom: 20px;
+      }
+    }
+    .align-center {
+      text-align: center;
+      margin-bottom: 0;
+    }
+    .bitcoin {
+      padding: 20px 0;
+      margin-bottom: 20px;
+    }
+    .coins {
+      display: block;
+    }
+  
+    //WHITE BG
+    .white-bg {
+      padding: 40px;
+      padding-top: 200px;
+    }
+  
+    //PURPLe BG
+  
+    .purple-bg {
+      padding: 40px;
+    }
+    .invest-smart {
+      img {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+      }
+      display: block;
+      padding-bottom: 0;
+      margin-bottom: 0px;
+    }
+    .bold-text-purple {
+      padding-bottom: 20px;
+      margin-bottom: 0;
+    }
+    .padding-top {
+      padding-bottom: 40px;
+    }
+  
+    .blue-bar {
+      display: block;
+      padding: 20px;
+      input {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .padding-top {
+        padding-bottom: 0;
+      }
+    }
+    .text-btn {
+      display: block;
+    }
+  
+    //FOOTER
+  
+    .footer {
+      padding: 40px;
+      display: block;
+      .logo{
+        height: 50px;
+      }
+    }
+    .link-items {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .text-payment {
+      .crappo-text {
+        text-align: center;
+      }
+    }
+  
+    .social-media-footer {
+      display: block;
+    }
+  
+    .left-footer {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .right-footer {
+      img {
+        width: 100%;
+        width: 20px;
+      }
+      margin: 0 auto;
+    }
+}
+
+
+
+
+

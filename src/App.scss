@@ -1,0 +1,587 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+//VARIABLES
+$darkPurple: #0d0d2b;
+$lightPurple: #2b076e;
+$pureWhite: #fff;
+$offWhite: #e0e0e0;
+$blueColor: #3671e9;
+$lightWhite: #f9f6fc;
+$rubik-font: "Rubik", sans-serif;
+$normalFont: 16px;
+
+// HEADER SECTION
+
+//Positioned Absolute images
+
+
+.header {
+  background-color: $darkPurple;
+  padding: 40px 80px;
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+//left-nav
+.logo {
+  display: flex;
+}
+.crappo {
+  color: #fff;
+}
+
+//right-nav
+
+.right-nav {
+  display: flex;
+  align-items: center;
+}
+.menu-bar {
+  padding-right: 20px;
+}
+
+.menu-items {
+  border-right: 1px solid #f2f2f2;
+  display: flex;
+  cursor: pointer;
+  li {
+    &:hover {
+      background-color: lighten($darkPurple, $amount: 10%);
+      border-radius: 10px;
+    }
+    list-style: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: $rubik-font;
+  }
+}
+
+.blue-bg-color {
+  background-color: $blueColor;
+  color: $pureWhite;
+  font-weight: 500;
+}
+
+.white-bg-color {
+  background-color: white;
+  color: $darkPurple;
+  font-weight: 600;
+}
+
+.reg-btn {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 32px;
+  padding: 14px 20px;
+  height: 52px;
+  cursor: pointer;
+  border: none;
+}
+.btn-white-bg {
+  background-color: $pureWhite;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+.info {
+  width: 70%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 32px;
+  //   padding: 2px;
+}
+.info-btn {
+  p {
+    font-family: $rubik-font;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $darkPurple;
+    padding: 0 20px;
+    // text-align: center;
+  }
+  display: flex;
+  align-items: center;
+  background-color: $pureWhite;
+  border-radius: 25px;
+  height: 40px;
+}
+
+.for-the-black {
+  font-family: $rubik-font;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: $pureWhite;
+  padding-left: 20px;
+}
+.left-banner {
+  h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: $rubik-font;
+    font-weight: 700;
+    font-size: 64px;
+    color: $pureWhite;
+  }
+}
+.right-banner {
+}
+
+.buy-sell {
+  font-family: $rubik-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #e0e0e0;
+  width: 70%;
+  padding-bottom: 20px;
+}
+.arrow {
+  padding-left: 20px;
+}
+
+//END OF HEADER
+
+//WHY CRYPTO SECTION
+
+.why-crypto {
+  background-color: $darkPurple;
+  padding: 40px 80px;
+  position: relative;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+}
+.text {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.bold-text {
+  color: $pureWhite;
+  font-family: $rubik-font;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.normal-text {
+  color: $offWhite;
+  font-weight: 400;
+  font-size: $normalFont;
+  font-family: $rubik-font;
+}
+
+.crappo-text {
+  font-size: 40px;
+  color: $pureWhite;
+  font-weight: 700;
+  line-height: 150%;
+  padding-bottom: 30px;
+}
+.crappo-banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  align-items: center;
+  padding-bottom: 200px;
+}
+
+.crappo-right-banner {
+  p {
+    line-height: 28px;
+    padding-bottom: 20px;
+  }
+}
+.align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+  .margin {
+    margin-bottom: 30px;
+    margin-top: 100px;
+  }
+}
+.new-margin {
+  margin-bottom: 0;
+}
+
+//Why Crypto Ends....
+
+//WHITE-BG-SECTION
+.white-bg {
+  background-color: $lightWhite;
+  padding: 200px 80px;
+  padding-bottom: 100px;
+}
+
+.white-bg {
+  .bold-text {
+    color: $darkPurple;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 741px;
+  }
+}
+
+.flex {
+  text-align: center;
+  max-width: 50% auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 0.5fr;
+  grid-gap: 40px;
+  // margin: 0 120px;
+  padding: 40px;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.grid {
+  select {
+    padding: 20px 20px 5px 20px;
+    font-size: 20px;
+    color: $darkPurple;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+  }
+}
+input {
+  padding: 20px 20px 5px 0px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  &:focus {
+    outline: none;
+  }
+  &::placeholder {
+    font-size: 20px;
+    color: $darkPurple;
+  }
+  margin-right: 40px;
+}
+
+.float-text {
+  // margin: 0 120px;
+  padding: 40px;
+  box-shadow: 0px 80px 40px #f3f3f3;
+}
+.blue-text {
+  font-size: $normalFont;
+  font-family: $rubik-font;
+  font-weight: 500;
+  line-height: 150%;
+  color: $blueColor;
+}
+.figure {
+  span {
+    color: $blueColor;
+  }
+  font-family: $rubik-font;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 150%;
+  color: $darkPurple;
+  margin: 10px 0;
+}
+.figure-text {
+  font-family: $rubik-font;
+  font-size: $normalFont;
+  color: #828282;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.float {
+  background-color: $pureWhite;
+  max-width: 942px;
+  // margin: 0 auto;
+  border-radius: 25px;
+  position: absolute;
+  top: 1822px;
+  left: 200px;
+  width: 100%;
+}
+
+.bitcoin {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $lightWhite;
+  justify-content: flex-start;
+  max-width: 370px;
+  height: 433px;
+  padding: 40px;
+  color: $pureWhite;
+  span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    opacity: 0.7;
+    text-align: center;
+  }
+}
+
+.hovered-background {
+  background-color: $lightPurple;
+
+  .btc-text,
+  .digital-text {
+    color: white;
+  }
+}
+
+.coins {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btc-text {
+  font-size: 32px;
+  font-family: $rubik-font;
+  color: $darkPurple;
+  font-weight: 700;
+  line-height: 150%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.digital-text {
+  font-family: $rubik-font;
+  font-size: $normalFont;
+  font-weight: 40;
+  line-height: 28px;
+  max-width: 322px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #828282;
+}
+
+//WHITE-BG-SECTION
+
+//PURPLE-BG-SECTION
+
+.purple-bg {
+  background-color: $lightPurple;
+  padding: 100px 80px;
+}
+
+.bold-text-purple {
+  color: $pureWhite;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 741px;
+  margin-bottom: 100px;
+}
+
+.invest-smart {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 100px;
+}
+.smart-text {
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+.padding-top {
+  padding-top: 40px;
+}
+.display-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 80px;
+  align-items: center;
+}
+.blue-bar {
+  .padding-top {
+    padding-top: 0px;
+  }
+  padding: 40px;
+  border-radius: 20px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 0.5fr 1fr;
+  grid-gap: 80px;
+  background-color: $blueColor;
+  // padding: 40px;
+}
+
+.text-btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.blue-bar {
+  input {
+    width: 80%;
+    background-color: $blueColor;
+    border-bottom: 1px solid #e0e0e0;
+    color: $pureWhite;
+    &::placeholder {
+      font-size: $normalFont;
+      color: $pureWhite;
+    }
+  }
+}
+
+//PURPLE BG ENDS....
+
+//FOOTER STARTS HERE...
+
+.footer2 {
+  background-color: $darkPurple;
+  padding: 100px 80px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1.5fr;
+  background-color: $darkPurple;
+  padding: 80px 80px;
+}
+
+.link-items {
+  li {
+    font-weight: 400;
+    font-size: $normalFont;
+    font-family: $rubik-font;
+    line-height: 38px;
+    list-style: none;
+    color: $pureWhite;
+  }
+}
+
+.link-text {
+  font-family: $rubik-font;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: $pureWhite;
+  margin-bottom: 20px;
+}
+
+.payment-system {
+  display: flex;
+  img {
+    padding-right: 20px;
+    padding-top: 30px;
+  }
+}
+
+.social-media-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.right-footer {
+  display: flex;
+  li {
+    list-style: none;
+    padding-right: 40px;
+  }
+}
+.left-footer {
+  font-family: $rubik-font;
+  font-size: $normalFont;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: $pureWhite;
+}
+
+//POSITION ABSOLUTE IMAGES
+
+.rectangle1 {
+  position: absolute;
+  right: 0;
+  bottom: -287px;
+}
+.rectangle2 {
+  position: absolute;
+  left: 0;
+  top: 500px;
+}
+.bitcoin-shape{
+  position: absolute;
+  bottom: 0;
+}
+
+.d-shape {
+  position: absolute;
+  right: 0;
+  bottom: -650px;
+}
+.vector{
+  left: 1118px;
+    position: absolute;
+    bottom: -4390px;
+    right: 0;
+}
+.rec3{
+  left: 354px;
+  position: absolute;
+  bottom: -4513px;
+  right: 0;
+}
+.rec4{
+  left: -150px;
+  position: absolute;
+  bottom: -4506px;
+  right: 0;
+}
+.ether{
+  left: 108px;
+    position: absolute;
+    bottom: -4438px;
+    right: 0;
+}
+
+.u-shape {
+  position: absolute;
+  right: 0;
+  bottom: -900px;
+}
+.o-shape {
+  position: absolute;
+  left: 0;
+  bottom: -2612px;
+}
+
+
+
+
+
+
