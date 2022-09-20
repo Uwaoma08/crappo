@@ -462,6 +462,7 @@ input {
 .footer2 {
   background-color: $darkPurple;
   padding: 100px 80px;
+  cursor: pointer;
 }
 
 .footer {
@@ -469,6 +470,7 @@ input {
   grid-template-columns: 1fr 1fr 1fr 1.5fr;
   background-color: $darkPurple;
   padding: 80px 80px;
+  cursor: pointer;
 }
 
 .link-items {
