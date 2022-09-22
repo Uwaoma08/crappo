@@ -24,8 +24,8 @@ $normalFont: 16px;
     .ether,
     .vector,
     .rec3,
-    .rec4,
-    .float-text{
+    .rec4
+  {
       display: none;
     }
     .float-mobile {
@@ -34,7 +34,7 @@ $normalFont: 16px;
       max-width: 942px;
       border-radius: 25px;
       position: absolute;
-      top: 2500px;
+      top: 2131px;
       left: 49px;
       width: 80%;
       margin: 0 auto;
@@ -66,11 +66,25 @@ $normalFont: 16px;
     .logo {
       display: flex;
       justify-content: center;
-      margin-bottom: 20px;
-      height: 70px;
+      margin-bottom: 40px;
+      height: 80px;
     }
-  
+.header{
+  .logo{
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 40px;
+      height: 60px;
+
+  }
+}
+  .buy-sell{
+    text-align: center;
+  }
+
+
     .menu-items {
+      display: none;
       border: none;
       margin-bottom: 10px;
       li {
@@ -84,6 +98,7 @@ $normalFont: 16px;
       flex-direction: column;
     }
     .reg-btn {
+      display: none;
       margin: 0 auto;
     }
     .banner {
@@ -231,8 +246,85 @@ $normalFont: 16px;
       }
       margin: 0 auto;
     }
-}
 
+
+    .menu-bar{
+      position: fixed;
+      top: 30px;
+      // left: 360px;
+      right: 20px;
+
+      color: #fff;
+      font-size: 50px;
+    }
+
+
+    .menu-banner{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+      top: 0;
+      padding: 40px;
+    }
+      .menu-banner{
+        .logo{
+          position: fixed;
+          top: 30px;
+          left: 20px;
+          display: flex;
+          justify-content: flex-start;
+          height: 50px;
+        }
+      }
+
+      .menu-banner{
+        .menu-items{
+          display: flex;
+          flex-direction: column;
+          margin-top: 80px;
+          li{
+            font-size: 18px;
+            &:hover{
+              background-color: lighten($darkPurple, $amount: 10%);
+            }
+          }
+        }
+      }
+
+      .menu-banner{
+        .vector{
+          display: block;
+          position: fixed;
+          top: 168px;
+          left: 177px;
+        }
+      }
+      .hide-button{
+        display: block;
+        border: none;
+        // background-color: #1e1e57;
+      }
+
+      .main-nav{
+        margin-bottom: 50px;
+      }
+
+      .grid{
+        input{
+          &::placeholder{
+            font-size: 16px;
+            text-align: left;
+          }
+        }
+        select{
+            font-size: 15px;
+            text-align: left;
+        
+        }
+      }
+
+}
 
 
 

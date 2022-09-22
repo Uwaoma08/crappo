@@ -1,13 +1,19 @@
 import Button from "./Button";
 import Logo from "./Logo";
+import { FaBars } from "react-icons/fa";
 
 
-export default ({ className }) => {
+export default ({ className, openMobileMenu }) => {
   return (
     <>
     <header className={`${className}`}>
       <div className="main-nav">
         <Logo />
+        
+        <button className="hide-button" onClick={openMobileMenu}>
+            <FaBars className="menu-bar" />
+        </button>
+
         <div className="right-nav">
           <MenuBar/>
           <Button text="Register"/>

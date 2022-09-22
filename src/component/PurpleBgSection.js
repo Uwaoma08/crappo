@@ -2,6 +2,7 @@ import Button from "./Button";
 
 export default () => {
   return (
+    <>
     <div className="purple-bg">
       <div className="">
         <p className="bold-text-purple flex">
@@ -26,7 +27,8 @@ export default () => {
         " ShowButton={true}/>
         <img src="../images/table.svg" />
       </div>
-
+    </div>
+    <div className="gradient-bg">
       <div className="blue-bar">
       
       <TextAndButton  firstText="Start minning now" secondText="Join now with CRAPPO to get the latest news and start mining now.
@@ -36,7 +38,10 @@ export default () => {
           <Button bgColor="white-bg-color" text="Subscribe"/>
         </div>
       </div>
-    </div>
+      </div>
+
+
+    </>
   );
 };
 
