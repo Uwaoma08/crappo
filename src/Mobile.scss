@@ -34,7 +34,7 @@ $normalFont: 16px;
       max-width: 942px;
       border-radius: 25px;
       position: absolute;
-      top: 2131px;
+      top: 2223px;
       left: 49px;
       width: 80%;
       margin: 0 auto;
@@ -247,6 +247,7 @@ $normalFont: 16px;
       margin: 0 auto;
     }
 
+    //MOBILE VIEW
 
     .menu-bar{
       position: fixed;
@@ -312,6 +313,7 @@ $normalFont: 16px;
 
       .grid{
         input{
+        
           &::placeholder{
             font-size: 16px;
             text-align: left;
